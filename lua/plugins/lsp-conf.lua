@@ -11,24 +11,24 @@ return {
         opts = {
             ensure_installed = {
                 'lua-language-server', -- DONE
-                'eslint-lsp', -- DONE
-                'gopls', -- DONE
-                'clangd', -- DONE
-                'rust-analyzer', -- DONE
+                'eslint-lsp',          -- DONE
+                'gopls',               -- DONE
+                'clangd',              -- DONE
+                'rust-analyzer',       -- DONE
                 'ocaml-lsp',
                 'bash-language-server',
-                'neocmakelsp',
-                'asm-lsp', -- DONE
+                'neocmakelsp', -- DONE
+                'asm-lsp',     -- DONE
                 'vim-language-server',
-                'json-lsp', -- DONE
+                'json-lsp',    -- DONE
                 'haskell-language-server',
                 'csharp-language-server',
-                'html-lsp',
-                'htmx-lsp',
+                'html-lsp', -- DONE
+                'htmx-lsp', -- DONE
                 'elixir-ls',
-                'sqlls',
+                'sqlls',    -- DONE
                 'ltex-ls',
-                'zls', -- DONE
+                'zls',      -- DONE
                 'yaml-language-server',
                 'python-lsp-server',
                 'nimlsp',
@@ -38,7 +38,7 @@ return {
                 'ols',
                 'dockerfile-language-server', -- DONE
                 'kotlin-language-server',
-                'marksman', -- DONE
+                'marksman',                   -- DONE
             },
             auto_update = false,
         }

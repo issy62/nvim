@@ -8,4 +8,8 @@ require("castle.lsps.zls")
 require("castle.lsps.dockerfile")
 require("castle.lsps.asm")
 require("castle.lsps.json")
+require("castle.lsps.htmlls")
+require("castle.lsps.htmxls")
+require("castle.lsps.cmakels")
+require("castle.lsps.sqlls")
 

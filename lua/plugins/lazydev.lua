@@ -28,8 +28,11 @@ return {
                 },
             },
             keymap = { preset = 'super-tab' },
-            appearance = {
-                nerd_font_variant = 'mono',
+            signature = { enabled = true },
+            completion = {
+                documentation = {
+                    auto_show = true,
+                }
             },
         },
         opts_extend = { "sources.default" }

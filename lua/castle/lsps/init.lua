@@ -1,0 +1,11 @@
+require("castle.lsps.luals")
+require("castle.lsps.eslintls")
+require("castle.lsps.gopls")
+require("castle.lsps.clangd")
+require("castle.lsps.rust-analyzer")
+require("castle.lsps.marksman")
+require("castle.lsps.zls")
+require("castle.lsps.dockerfile")
+require("castle.lsps.asm")
+require("castle.lsps.json")
+

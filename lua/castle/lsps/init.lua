@@ -16,4 +16,8 @@ require("castle.lsps.bashls")
 require("castle.lsps.kotlinls")
 require("castle.lsps.vimls")
 require("castle.lsps.yamlls")
+require("castle.lsps.odinls")
+require("castle.lsps.pyls")
+require("castle.lsps.autotoolsls")
+require("castle.lsps.nimls")
 

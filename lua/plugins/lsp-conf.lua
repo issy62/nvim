@@ -30,12 +30,12 @@ return {
                 'ltex-ls',
                 'zls',                  -- DONE
                 'yaml-language-server', -- DONE
-                'python-lsp-server',
-                'nimlsp',
+                'python-lsp-server',    -- DONE
+                'nimlsp',               -- DONE
                 'golangci-lint-langserver',
                 'gitlab-ci-ls',
-                'autotools-language-server',
-                'ols',
+                'autotools-language-server',  -- DONE
+                'ols',                        -- DONE
                 'dockerfile-language-server', -- DONE
                 'kotlin-lsp',                 -- DONE
                 'marksman',                   -- DONE

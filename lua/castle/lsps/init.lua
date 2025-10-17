@@ -20,4 +20,6 @@ require("castle.lsps.odinls")
 require("castle.lsps.pyls")
 require("castle.lsps.autotoolsls")
 require("castle.lsps.nimls")
+require("castle.lsps.gitlabcils")
+require("castle.lsps.golangcils")
 

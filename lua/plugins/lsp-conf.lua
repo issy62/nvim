@@ -23,17 +23,17 @@ return {
                 'json-lsp',             -- DONE
                 'haskell-language-server',
                 'csharp-language-server',
-                'html-lsp',             -- DONE
-                'htmx-lsp',             -- DONE
+                'html-lsp',                   -- DONE
+                'htmx-lsp',                   -- DONE
                 'elixir-ls',
-                'sqlls',                -- DONE
+                'sqlls',                      -- DONE
                 'ltex-ls',
-                'zls',                  -- DONE
-                'yaml-language-server', -- DONE
-                'python-lsp-server',    -- DONE
-                'nimlsp',               -- DONE
-                'golangci-lint-langserver',
-                'gitlab-ci-ls',
+                'zls',                        -- DONE
+                'yaml-language-server',       -- DONE
+                'python-lsp-server',          -- DONE
+                'nimlsp',                     -- DONE
+                'golangci-lint-langserver',   -- DONE
+                'gitlab-ci-ls',               -- DONE
                 'autotools-language-server',  -- DONE
                 'ols',                        -- DONE
                 'dockerfile-language-server', -- DONE

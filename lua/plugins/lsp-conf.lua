@@ -19,17 +19,17 @@ return {
                 'bash-language-server', -- DONE
                 'neocmakelsp',          -- DONE
                 'asm-lsp',              -- DONE
-                'vim-language-server',
+                'vim-language-server',  -- DONE
                 'json-lsp',             -- DONE
                 'haskell-language-server',
                 'csharp-language-server',
-                'html-lsp', -- DONE
-                'htmx-lsp', -- DONE
+                'html-lsp',             -- DONE
+                'htmx-lsp',             -- DONE
                 'elixir-ls',
-                'sqlls',    -- DONE
+                'sqlls',                -- DONE
                 'ltex-ls',
-                'zls',      -- DONE
-                'yaml-language-server',
+                'zls',                  -- DONE
+                'yaml-language-server', -- DONE
                 'python-lsp-server',
                 'nimlsp',
                 'golangci-lint-langserver',

@@ -14,4 +14,6 @@ require("castle.lsps.cmakels")
 require("castle.lsps.sqlls")
 require("castle.lsps.bashls")
 require("castle.lsps.kotlinls")
+require("castle.lsps.vimls")
+require("castle.lsps.yamlls")
 

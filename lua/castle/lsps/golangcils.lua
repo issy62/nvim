@@ -2,7 +2,7 @@ local golangcils_conf = {
     cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/golangci-lint-langserver") },
     filetypes = { "go", "gomod" },
     init_options = {
-        command = { "golangci-lint", "run", "--output.json.path=stdout", "--show-stats=false" }
+        command = { "/mnt/WORKER/go/bin/golangci-lint", "run", "--output.json.path=stdout", "--show-stats=false" }
     },
     root_markers = { ".golangci.yml", ".golangci.yaml", ".golangci.toml", ".golangci.json", "go.work", "go.mod", ".git" },
     before_init = function(_, config)

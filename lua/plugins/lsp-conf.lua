@@ -27,7 +27,7 @@ return {
                 'htmx-lsp',                   -- DONE
                 'elixir-ls',
                 'sqlls',                      -- DONE
-                'ltex-ls',
+                'ltex-ls-plus',
                 'zls',                        -- DONE
                 'yaml-language-server',       -- DONE
                 'python-lsp-server',          -- DONE

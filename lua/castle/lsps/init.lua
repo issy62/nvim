@@ -22,4 +22,5 @@ require("castle.lsps.autotoolsls")
 require("castle.lsps.nimls")
 require("castle.lsps.gitlabcils")
 require("castle.lsps.golangcils")
+require("castle.lsps.ltexls")
 

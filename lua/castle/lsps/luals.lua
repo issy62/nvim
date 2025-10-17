@@ -1,5 +1,5 @@
 local lusls_conf = {
-    cmd = { "lua-language-server" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/lua-language-server") },
     filetypes = { "lua" },
     settings = {
         Lua = {

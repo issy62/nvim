@@ -12,4 +12,6 @@ require("castle.lsps.htmlls")
 require("castle.lsps.htmxls")
 require("castle.lsps.cmakels")
 require("castle.lsps.sqlls")
+require("castle.lsps.bashls")
+require("castle.lsps.kotlinls")
 

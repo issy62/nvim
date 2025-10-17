@@ -1,5 +1,5 @@
 local json_conf = {
-    cmd = { "vscode-json-language-server", "--stdio" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/vscode-json-language-server"), "--stdio" },
     filetypes = { "json", "jsonc" },
     init_options = {
         provideFormatter = true

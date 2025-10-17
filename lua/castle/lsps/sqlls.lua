@@ -1,5 +1,5 @@
 local sqlls_conf = {
-    cmd = { "sql-language-server", "up", "--method", "stdio" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/sql-language-server"), "up", "--method", "stdio" },
     filetypes = { "sql", "mysql" },
     root_markers = { ".sqllsrc.json" },
     settings = {}

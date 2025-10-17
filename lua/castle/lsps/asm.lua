@@ -1,5 +1,5 @@
 local asm_conf = {
-    cmd = { "asm-lsp" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/asm-lsp") },
     filetypes = { "asm", "vmasm" },
     root_markers = { ".asm-lsp.toml", ".git" }
 }

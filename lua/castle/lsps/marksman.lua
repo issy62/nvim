@@ -1,5 +1,5 @@
 local md_conf = {
-    cmd = { "marksman", "server" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/marksman"), "server" },
     filetypes = { "markdown", "markdown.mdx" },
     root_markers = { ".marksman.toml", ".git" }
 }

@@ -53,7 +53,10 @@ local clangd_conf = {
             }
         }
     },
-    cmd = { "clangd" },
+
+    -- Do to security  reasons and my contracting environment I have to use
+    -- my systems installation.
+    cmd = { "/usr/bin/clangd" },
     filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
     on_attach = function(client, bufnr)
         vim.api.nvim_buf_create_user_command(bufnr, 'LspClangdSwitchSourceHeader', function()

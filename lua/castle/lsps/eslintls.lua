@@ -14,7 +14,7 @@ local eslint_config_files = {
 }
 
 local eslint_conf = {
-    cmd = { "vscode-eslint-language-server", "--stdio" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/vscode-eslint-language-server"), "--stdio" },
     filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx", "vue", "svelte", "astro", "htmlangular" },
     handlers = {
         ['eslint/openDoc'] = function(_, result)

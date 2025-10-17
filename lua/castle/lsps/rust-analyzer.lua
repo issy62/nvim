@@ -40,7 +40,10 @@ local rust_ls_conf = {
             serverStatusNotification = true
         }
     },
-    cmd = { "rust-analyzer" },
+
+    -- Do to security  reasons and my contracting environment I have to use
+    -- my systems installation.
+    cmd = { vim.fn.expand("$HOME/.cargo/bin/rust-analyzer") },
     filetypes = { "rust" },
     on_attach = function(_, bufnr)
         vim.api.nvim_buf_create_user_command(bufnr, 'LspCargoReload', function()

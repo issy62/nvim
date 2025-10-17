@@ -2,7 +2,7 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 local cmakels_conf = {
-    cmd = { "neocmakelsp", "--stdio" },
+    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/neocmakelsp"), "--stdio" },
     filetypes = { "cmake" },
     root_markers = { ".git", "build", "cmake" },
     capabilities = capabilities

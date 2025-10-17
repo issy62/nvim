@@ -68,7 +68,9 @@ local function get_root_dir(fname)
 end
 
 local gopls_conf = {
-    cmd = { "gopls" },
+    -- Do to security  reasons and my contracting environment I have to use
+    -- my systems installation.
+    cmd = { "/mnt/WORKER/go/bin/gopls" },
     filetypes = { "go", "gomod", "gowork", "gotmpl" },
     root_dir = function(bufnr, on_dir)
         local fname = vim.api.nvim_buf_get_name(bufnr)

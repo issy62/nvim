@@ -24,4 +24,6 @@ require("castle.lsps.gitlabcils")
 require("castle.lsps.golangcils")
 require("castle.lsps.ltexls")
 require("castle.lsps.ocamlls")
+require("castle.lsps.csharpls")
+require("castle.lsps.haskellls")
 

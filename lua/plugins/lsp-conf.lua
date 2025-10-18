@@ -10,24 +10,24 @@ return {
         },
         opts = {
             ensure_installed = {
-                'lua-language-server',  -- DONE
-                'eslint-lsp',           -- DONE
-                'gopls',                -- DONE
-                'clangd',               -- DONE
-                'rust-analyzer',        -- DONE
-                'ocaml-lsp',            -- DONE
-                'bash-language-server', -- DONE
-                'neocmakelsp',          -- DONE
-                'asm-lsp',              -- DONE
-                'vim-language-server',  -- DONE
-                'json-lsp',             -- DONE
-                'haskell-language-server',
-                'csharp-language-server',
+                'lua-language-server',        -- DONE
+                'eslint-lsp',                 -- DONE
+                'gopls',                      -- DONE
+                'clangd',                     -- DONE
+                'rust-analyzer',              -- DONE
+                'ocaml-lsp',                  -- DONE
+                'bash-language-server',       -- DONE
+                'neocmakelsp',                -- DONE
+                'asm-lsp',                    -- DONE
+                'vim-language-server',        -- DONE
+                'json-lsp',                   -- DONE
+                'haskell-language-server',    -- DONE
+                'csharp-language-server',     -- DONE
                 'html-lsp',                   -- DONE
                 'htmx-lsp',                   -- DONE
                 'elixir-ls',
                 'sqlls',                      -- DONE
-                'ltex-ls-plus',
+                'ltex-ls-plus',               -- DONE
                 'zls',                        -- DONE
                 'yaml-language-server',       -- DONE
                 'python-lsp-server',          -- DONE

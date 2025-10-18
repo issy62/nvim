@@ -11,9 +11,20 @@ return {
         },
     },
     {
+        "j-hui/fidget.nvim",
+        opts = {
+            notification = {
+                window = {
+                    avoid = { "NvimTree" },
+                },
+            },
+        }
+    },
+    {
         "saghen/blink.cmp",
         dependencies = {
             'rafamadriz/friendly-snippets',
+            'fidget.nvim'
         },
         build = 'cargo +nightly build --release',
         opts = {

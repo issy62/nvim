@@ -15,7 +15,7 @@ return {
                 'gopls',                -- DONE
                 'clangd',               -- DONE
                 'rust-analyzer',        -- DONE
-                'ocaml-lsp',
+                'ocaml-lsp',            -- DONE
                 'bash-language-server', -- DONE
                 'neocmakelsp',          -- DONE
                 'asm-lsp',              -- DONE

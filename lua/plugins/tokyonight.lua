@@ -10,9 +10,8 @@ return {
                 sidebars = "transparent",
             },
             plugins = {
-                auto = true,
+                trouble = true,
                 telescope = true,
-                cmp = true,
                 blink = true,
                 gitgutter = true,
                 lazy = true,

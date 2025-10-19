@@ -6,8 +6,10 @@ return {
         opts = {
             style = "night",
             transparent = true,
+            erminal_colors = true,
             styles = {
                 sidebars = "transparent",
+                floats = "transparent",
             },
             plugins = {
                 trouble = true,
@@ -18,9 +20,6 @@ return {
                 nvim_tree = true,
             },
         },
-        config = function()
-            vim.cmd.colorscheme("tokyonight-night")
-        end,
     }
 }
 

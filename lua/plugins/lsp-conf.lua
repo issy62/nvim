@@ -25,7 +25,7 @@ return {
                 'csharp-language-server',     -- DONE
                 'html-lsp',                   -- DONE
                 'htmx-lsp',                   -- DONE
-                'elixir-ls',
+                'elixir-ls',                  -- DONE
                 'sqlls',                      -- DONE
                 'ltex-ls-plus',               -- DONE
                 'zls',                        -- DONE

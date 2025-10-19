@@ -12,6 +12,16 @@ local zls_conf = {
     workspace_required = false
 }
 
+vim.g.zig_fmt_parse_errors = 1
+vim.g.zig_fmt_autosave = 1
+
+vim.api.nvim_create_autocmd('BufWritePre', {
+    pattern = { "*.zig", "*.zon" },
+    callback = function(ev)
+        vim.lsp.buf.format()
+    end
+})
+
 vim.lsp.config('zls', zls_conf)
 vim.lsp.enable('zls')
 

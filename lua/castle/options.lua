@@ -31,4 +31,6 @@ vim.opt.undodir = vim.fn.expand("$HOME/.undodir")
 vim.opt.undofile = true
 -- vim.opt.colorcolumn = "120"
 vim.opt.conceallevel = 1
+vim.opt.completeopt = { "menu", "menuone", "noselect" }
+vim.opt.shortmess:append "c"
 

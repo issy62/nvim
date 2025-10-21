@@ -42,6 +42,7 @@ return {
             vim.keymap.set("n", "<leader>pg", builtin.live_grep, { noremap = true })
             vim.keymap.set("n", "<leader>ph", builtin.help_tags, { noremap = true })
             vim.keymap.set("n", "<C-p>", builtin.git_files, { noremap = true })
+            vim.keymap.set("n", "<leader>gb", builtin.buffers, { noremap = true })
 
             vim.keymap.set("n", "<leader>pu", function()
                 vim.cmd("Telescope undo")

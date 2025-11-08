@@ -27,4 +27,7 @@ require("castle.lsps.ocamlls")
 require("castle.lsps.csharpls")
 require("castle.lsps.haskellls")
 require("castle.lsps.elixirls")
+-- require("castle.lsps.denols")
+require("castle.lsps.tsls")
+require("castle.lsps.vtsls")
 

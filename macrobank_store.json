@@ -1,0 +1,1 @@
+{"macros":[{"saved_at":"2025-11-19T21:11:05Z","name":"PatchOpamAUR","version":2,"scope":{"type":"global"},"keys":":%s/configure configure --with-vendored-deps/\r","updated_at":"2025-11-20T20:49:13Z"}],"version":2}

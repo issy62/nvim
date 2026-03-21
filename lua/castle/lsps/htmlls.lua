@@ -1,6 +1,6 @@
 local htmlls_conf = {
     cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/vscode-html-language-server"), "--stdio" },
-    filetypes = { "html", "templ" },
+    filetypes = { "html" },
     init_options = {
         configurationSection = { "html", "css", "javascript" },
         embeddedLanguages = {

@@ -1,6 +1,6 @@
 local yamlls_conf = {
     cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/yaml-language-server"), "--stdio" },
-    filetypes = { "yaml", "yaml.docker-compose", "yaml.gitlab", "yaml.helm-values" },
+    filetypes = { "yaml" },
     on_init = function(client)
         client.server_capabilities.documentFormattingProvider = true
     end,

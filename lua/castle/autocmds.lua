@@ -53,18 +53,18 @@ autocmd('TextYankPost', {
 --    command = [[%s/\s\+$//e]],
 -- })
 
-autocmd({ 'BufWritePre' }, {
-    group = castlegroup,
-    pattern = '*',
-    callback = function()
-        local save_cursor = vim.fn.getpos(".")
-        vim.cmd([[
-            silent! %s/\s\+$//e
-            silent! v/\_s*\S/d
-            silent! %s/\n\+\%$//e
-            silent! $put _
-        ]])
-        vim.fn.setpos(".", save_cursor)
-    end,
-})
+-- autocmd({ 'BufWritePre' }, {
+--     group = castlegroup,
+--     pattern = '*',
+--     callback = function()
+--         local save_cursor = vim.fn.getpos(".")
+--         vim.cmd([[
+--             silent! %s/\s\+$//e
+--             silent! v/\_s*\S/d
+--             silent! %s/\n\+\%$//e
+--             silent! $put _
+--         ]])
+--         vim.fn.setpos(".", save_cursor)
+--     end,
+-- })
 

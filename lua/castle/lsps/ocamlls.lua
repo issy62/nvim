@@ -55,7 +55,7 @@ local ocamlls_config = {
     -- Do to security  reasons and my contracting environment I have to use
     -- my systems installation.
     cmd = { vim.fn.expand("$HOME/.opam/5.4.0/bin/ocamllsp") },
-    filetypes = { "ocaml", "menhir", "ocamlinterface", "ocamllex", "reason", "dune" },
+    filetypes = { "ocaml", "dune" },
     root_markers = vim.fn.has('nvim-0.11.3') == 1 and { root_markers1, root_markers2, root_markers3 }
         or vim.list_extend(vim.list_extend(root_markers1, root_markers2), root_markers3),
     get_language_id = function(bufnr, ftype)

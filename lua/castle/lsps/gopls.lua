@@ -71,7 +71,7 @@ local gopls_conf = {
     -- Do to security  reasons and my contracting environment I have to use
     -- my systems installation.
     cmd = { "/mnt/WORKER/go/bin/gopls" },
-    filetypes = { "go", "gomod", "gowork", "gotmpl" },
+    filetypes = { "go", "gomod" },
     root_dir = function(bufnr, on_dir)
         local fname = vim.api.nvim_buf_get_name(bufnr)
         get_mod_cache_dir()
@@ -82,4 +82,3 @@ local gopls_conf = {
 
 vim.lsp.config('gopls', gopls_conf)
 vim.lsp.enable('gopls')
-

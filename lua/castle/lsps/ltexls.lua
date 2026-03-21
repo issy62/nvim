@@ -1,5 +1,5 @@
 local filetypes = { "bib", "context", "gitcommit", "html", "markdown", "org", "pandoc", "plaintex", "quarto", "mail",
-    "mdx", "rmd", "rnoweb", "rst", "tex", "text", "typst", "xhtml" }
+    "rmd", "rnoweb", "rst", "tex", "text", "typst", "xhtml" }
 
 local language_id_mapping = {
     bib = 'bibtex',
@@ -28,4 +28,3 @@ local ltexls_conf = {
 
 vim.lsp.config('ltex-ls-plus', ltexls_conf)
 vim.lsp.enable('ltex-ls-plus')
-

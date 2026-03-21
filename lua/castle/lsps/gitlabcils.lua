@@ -2,7 +2,7 @@ local util = require("castle.util")
 
 local gitlabcils_conf = {
     cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/gitlab-ci-ls") },
-    filetypes = { "yaml.gitlab" },
+    filetypes = { "yaml" },
     init_options = {
         cache_path = vim.fn.expand("$HOME/.cache/gitlab-ci-ls/"),
         log_path = vim.fn.expand("$HOME/.cache/gitlab-ci-ls//log/gitlab-ci-ls.log")

@@ -24,7 +24,6 @@ return {
                 'haskell-language-server',    -- DONE
                 'csharp-language-server',     -- DONE
                 'html-lsp',                   -- DONE
-                'htmx-lsp',                   -- DONE
                 'elixir-ls',                  -- DONE
                 'sqlls',                      -- DONE
                 'ltex-ls-plus',               -- DONE
@@ -39,9 +38,9 @@ return {
                 'dockerfile-language-server', -- DONE
                 'kotlin-lsp',                 -- DONE
                 'marksman',                   -- DONE
+                'c3-lsp'                      -- DONE
             },
             auto_update = false,
         }
     }
 }
-

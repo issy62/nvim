@@ -20,7 +20,7 @@ autocmd('LspAttach', {
         local opts = { buffer = e.buf }
         -- LSP keybindings
         vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
-        vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
+        vim.keymap.set("n", "K", function() vim.lsp.buf.hover({ style = "minimal", border = "rounded" }) end, opts)
         vim.keymap.set("n", "<leader>f", function() vim.lsp.buf.format({ async = true }) end, opts)
         vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
         vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
@@ -40,7 +40,7 @@ autocmd('TextYankPost', {
     group = yank_group,
     pattern = '*',
     callback = function()
-        vim.hl.on_yank({
+        vim.highlight.hl_op({
             higroup = 'IncSearch',
             timeout = 40,
         })
@@ -67,4 +67,3 @@ autocmd('TextYankPost', {
 --         vim.fn.setpos(".", save_cursor)
 --     end,
 -- })
-

@@ -22,8 +22,18 @@ local ltexls_conf = {
         ltex = {
             language = "en-US",
             enabled = filetypes,
+            dictionary = {
+                ["en-US"] = {
+                    "Bermudez",
+                    "Sepulveda",
+                    "Israel",
+                    "ripgrep",
+                    "grep",
+                    "Makefiles",
+                },
+            },
         },
-    }
+    },
 }
 
 vim.lsp.config('ltex-ls-plus', ltexls_conf)

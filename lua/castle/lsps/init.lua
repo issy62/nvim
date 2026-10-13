@@ -28,4 +28,4 @@ require("castle.lsps.haskellls")
 require("castle.lsps.elixirls")
 require("castle.lsps.tsls")
 require("castle.lsps.vtsls")
-
+require("castle.lsps.c3")

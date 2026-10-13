@@ -4,7 +4,7 @@ local yamlls_conf = {
     on_init = function(client)
         client.server_capabilities.documentFormattingProvider = true
     end,
-    root_marker = { ".git" },
+    root_markers = { ".git" },
     settings = {
         redhat = {
             telemetry = {

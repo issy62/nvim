@@ -1,5 +1,6 @@
 local kotlinls_conf = {
-    cmd = { vim.fn.expand("$HOME/.local/share/nvim/mason/bin/kotlin-lsp"), "--stdio" },
+    -- Using system lsp since mason was having issues downloading the recent version
+    cmd = { "kotlin-lsp", "--stdio" },
     filetypes = { "kotlin" },
     root_markers = { "settings.gradle", "settings.gradle.kts", "pom.xml", "build.gradle", "build.gradle.kts", "workspace.json" }
 }

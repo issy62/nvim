@@ -1,5 +1,26 @@
 return {
     {
+        "nvim-telescope/telescope-frecency.nvim",
+        dependencies = {
+            "tami5/sqlite.lua",
+        },
+    },
+    {
+        "nvim-telescope/telescope-fzf-native.nvim",
+        name = "telescope-fzf-native.nvim",
+        build =
+        "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
+        config = function()
+            require("telescope").load_extension("fzf")
+        end,
+    },
+    {
+        "crispgm/telescope-heading.nvim"
+    },
+    {
+        "nvim-telescope/telescope-file-browser.nvim"
+    },
+    {
         "nvim-telescope/telescope.nvim",
         dependencies = {
             "nvim-lua/popup.nvim",
@@ -8,13 +29,16 @@ return {
             "telescope-frecency.nvim",
             "telescope-fzf-native.nvim",
             "debugloop/telescope-undo.nvim",
+            "BurntSushi/ripgrep",
+            -- "sharkdp/fd",
+            "nvim-tree/nvim-web-devicons",
         },
         config = function()
             local builtin = require('telescope.builtin')
             -- local actions = require('telescope.actions')
             local trouble = require('trouble.sources.telescope')
 
-            require("telescope").setup({
+            require('telescope').setup({
                 defaults = {
                     mappings = {
                         i = { ["<c-t>"] = trouble.open },
@@ -71,28 +95,5 @@ return {
         end,
     },
 
-    {
-        "nvim-telescope/telescope-frecency.nvim",
-        dependencies = {
-            "tami5/sqlite.lua",
-        },
-    },
-    {
-        "nvim-telescope/telescope-fzf-native.nvim",
-        name = "telescope-fzf-native.nvim",
-        build =
-        "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
-        config = function()
-            require("telescope").load_extension("fzf")
-        end,
-    },
 
-    {
-        "crispgm/telescope-heading.nvim"
-    },
-
-    {
-        "nvim-telescope/telescope-file-browser.nvim"
-    },
 }
-

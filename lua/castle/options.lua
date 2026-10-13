@@ -5,7 +5,7 @@ vim.g.netrw_browse_slit = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 vim.g.ruby_host_prog = vim.fn.expand("$HOME/.local/share/gem/ruby/3.4.0/bin/neovim-ruby-host")
-vim.g.editorconfig = false
+vim.g.editorconfig = true
 
 -- Init Options
 vim.opt.nu = true
@@ -29,8 +29,7 @@ vim.opt.foldenable = false
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.undodir = vim.fn.expand("$HOME/.undodir")
 vim.opt.undofile = true
--- vim.opt.colorcolumn = "120"
+vim.opt.colorcolumn = "120"
 vim.opt.conceallevel = 1
 vim.opt.completeopt = { "menu", "menuone", "noselect" }
 vim.opt.shortmess:append "c"
-
